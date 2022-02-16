@@ -1,0 +1,3 @@
+@import-glob "*.css";
+
+@import-glob "../components/**/*.css";
