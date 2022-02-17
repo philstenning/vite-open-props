@@ -1,3 +1,7 @@
-@import-glob "*.css";
+@import-glob "../../node_modules/open-props/open-props.min.css";
+@import-glob "../../node_modules/open-props/normalize.min.css";
 
+@import-glob "./utils/**.css";
 @import-glob "../components/**/*.css";
+
+
