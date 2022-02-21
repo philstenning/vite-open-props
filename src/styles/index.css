@@ -1,7 +1,9 @@
+/* import-glob is a postcss plugin, it will also import single files if needed */
+
+/*  open-props setup */
 @import-glob "../../node_modules/open-props/open-props.min.css";
 @import-glob "../../node_modules/open-props/normalize.min.css";
 
+/* app css */
 @import-glob "./utils/**.css";
 @import-glob "../components/**/*.css";
-
-
