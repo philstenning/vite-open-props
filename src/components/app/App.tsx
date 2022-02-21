@@ -1,15 +1,13 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "../../routes/home";
-import About from "../../routes/about";
-import Contact from "../../routes/contact";
+import {About,Contact,Home} from "../../routes";
 import Layout from "../layout/layout";
-
 
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
+        {/*  pages are wrapped in the  Layout component. */}
         <Route path="/" element={<Layout />}>
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
