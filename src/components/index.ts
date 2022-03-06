@@ -1,6 +1,6 @@
-import App from './app/App'
-import Footer from './footer/footer'
-import Header from './header/header'
-import Layout from './layout/layout'
+import App from './App'
+import Footer from './Footer'
+import Header from './Header'
+import Layout from './Layout'
 
 export {App,Footer,Header, Layout}

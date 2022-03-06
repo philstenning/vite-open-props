@@ -3,7 +3,7 @@
   "./node_modules/open-props/open-props.min.css",
   // if you have an alternative path to where your styles are located
   // you can add it in this array of files
-  // "assets/styles/variables.css"
+  // ".src/styles/variables.css"
   ],
 
   // you can also add support for autocomplete in other file extensions
