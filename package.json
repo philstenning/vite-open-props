@@ -19,7 +19,7 @@
     "@types/react-dom": "^17.0.10",
     "@vitejs/plugin-react": "^1.0.7",
     "cssnano": "^5.0.17",
-    "postcss": "^8.4.6",
+    "postcss": "^8.4.31",
     "postcss-combine-duplicated-selectors": "^10.0.3",
     "postcss-custom-media": "^8.0.0",
     "postcss-import": "^14.0.2",
